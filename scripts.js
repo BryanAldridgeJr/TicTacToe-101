@@ -72,6 +72,7 @@ const resetBoard = () => {
 const checkForWin = () => {
   if(horizontalWin() || verticalWin() || diagonalWin()) {
     window.alert(`Player ${currentMarker} won!`)
+    window.location.reload();
   } else {
     changeMarker()
   }
