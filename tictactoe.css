@@ -1,13 +1,13 @@
 .jumbotron {
   margin: 5% auto;
-  margin-left: 43%;
+  /*margin-left: 43%;*/
 }
 
 td {
   height:150px;
   width:150px;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid #5568d4;
   font-size: 100px;
 }
 
@@ -15,5 +15,28 @@ table {
   margin: auto auto;
 }
 
+body {
+  background-color: rgb(165, 165, 165);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20pt;
+}
 
 
+.btn {
+  background-color: #5568d4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
